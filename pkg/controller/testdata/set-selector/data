@@ -1,0 +1,8 @@
+apiVersion: v1
+data:
+  anotherKey: something else
+  something: A New Interesting thing
+kind: ConfigMap
+metadata:
+  name: acorn-test-map
+  namespace: kube-system

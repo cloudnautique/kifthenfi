@@ -1,0 +1,12 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: "acorn-test-map"
+  namespace: test-data
+  labels:
+    kifthenfi.cloudnautique.com/manifest-hash: cf09596c
+    kifthenfi.cloudnautique.com/manifest-key: configmap
+data:
+  something: "Interesting"
+  anotherKey: "something else"

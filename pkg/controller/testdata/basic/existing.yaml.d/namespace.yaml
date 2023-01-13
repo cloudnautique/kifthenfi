@@ -1,0 +1,12 @@
+---
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: default
+---
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: test-data
+  labels:
+    acorn.io/managed: "true"

@@ -1,0 +1,17 @@
+containers: "kifthenfi-controller": {
+    build: context: "."
+    permissions: clusterRules: [{
+        apiGroups: [
+            "*",
+        ],
+        resources: [
+            "*",
+        ],
+        verbs: [
+            "*",
+        ],
+        verbs: [
+            "*",
+        ],
+    }]
+}

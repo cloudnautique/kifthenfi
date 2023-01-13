@@ -1,0 +1,10 @@
+apiVersion: kifthenfi.cloudnautique.com/v1
+kind: NamespaceWatcher
+metadata:
+  name: acorn-io-default-config
+  namespace: default
+spec:
+  namespaceLabelSelector:
+    matchLabels:
+      acorn.io/managed: "true"
+  manifestSecretName: "testing-v1"

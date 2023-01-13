@@ -1,0 +1,12 @@
+/.dapper
+/.cache
+/bin
+/dist
+*.swp
+.idea
+/kifthenfi
+/go.work
+/go.work.sum
+/releases
+
+/.envrc
